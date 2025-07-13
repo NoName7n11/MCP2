@@ -21,7 +21,6 @@ def weather_report(location: str) -> str:
     """Create a weather report prompt."""
     return f"""You are a weather reporter. Weather report for {location}?"""
 
-
 # Run the server
 if __name__ == "__main__":
     mcp.run()
