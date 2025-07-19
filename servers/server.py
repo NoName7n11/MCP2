@@ -24,3 +24,5 @@ def weather_report(location: str) -> str:
 # Run the server
 if __name__ == "__main__":
     mcp.run()
+
+ 
