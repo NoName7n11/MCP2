@@ -5,7 +5,7 @@ from mcp.client.stdio import stdio_client
 # Create server parameters for stdio connection
 server_params = StdioServerParameters(
     command="mcp",  # Executable
-    args=["run", "server.py.py"],  # Optional command line arguments
+    args=["run", "server.py"],  # Optional command line arguments
     env=None,  # Optional environment variables
 )
 
