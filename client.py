@@ -34,7 +34,7 @@ async def run():
             content, mime_type = await session.read_resource("weather://London")
             #print(content)
 
-            # Call a tool
+            # Call a toolllll
             print("CALL TOOL")
             result = await session.call_tool("add", arguments={"a": 1, "b": 7})
             print(result.content)
